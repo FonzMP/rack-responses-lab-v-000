@@ -5,7 +5,7 @@ class Application
 
     current_time = Time.now
 
-
+    hour = current_time.hour
     resp.write "#{current_time.hour}"
 
     resp.finish
