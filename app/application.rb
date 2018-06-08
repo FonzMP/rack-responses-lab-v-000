@@ -8,7 +8,7 @@ class Application
 
     resp.write "#{current_time}"
 
-
+    resp.finish
   end
 
 end
