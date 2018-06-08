@@ -5,7 +5,8 @@ class Application
 
     current_time = Time.now
 
-    resp.write "Good Morning!"
+
+    resp.write "#{current_time}"
 
 
   end
